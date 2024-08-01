@@ -1,0 +1,90 @@
+---------- CODE START ----------
+
+-- CICLO 1: IndicesOK
+
+-- 1. I_USUARIOS
+
+SELECT id, nombre, correo 
+FROM USUARIOS 
+WHERE nombre = 'Juan Pérez';
+
+-- 2. I_VENDEDORES
+
+SELECT *
+FROM VENDEDORES 
+WHERE nit = '123456789-0';
+
+-- 3. I_OFRECIMIENTOS
+
+SELECT producto, vendedor, precio 
+FROM OFRECIMIENTOS 
+WHERE precio = 5000;
+
+-- 4. I_PRODUCTOS
+
+SELECT id, nombre, descripcion 
+FROM PRODUCTOS 
+WHERE nombre = 'FIFA 2024';
+
+-- 5. I_CLAVES
+
+SELECT *
+FROM CLAVES 
+WHERE tipo = 'Activacion';
+
+-- 6. I_JUEGOS
+
+SELECT *
+FROM JUEGOS 
+WHERE desarrollador = 'Ubisoft';
+
+-- 7. I1_INTERCAMBIOS
+
+SELECT id, comprador1, comprador2, estado 
+FROM INTERCAMBIOS 
+WHERE comprador1 = '0005456784' AND comprador2 = '0005046518';
+
+-- 8. I2_INTERCAMBIOS
+
+SELECT id, metodo, total, fecha 
+FROM PAGOS 
+WHERE fecha >= TO_DATE('2020-05-19', 'YYYY-MM-DD');
+
+-- 9. I_PAGOS
+
+SELECT id, metodo, total, fecha 
+FROM PAGOS 
+WHERE fecha >= TO_DATE('2024-01-01', 'YYYY-MM-DD');
+
+
+
+
+-- CICLO 1: VistasOK
+
+-- 1. V_USUARIOS_NUEVOS
+
+SELECT *
+FROM V_USUARIOS_NUEVOS;
+
+-- 2. V_MEJORES_PRODUCTOS_OFERTADOS
+
+SELECT *
+FROM V_MEJORES_PRODUCTOS_OFERTADOS;
+
+-- 3. V_PRODUCTOS_INTERCAMBIADOS
+
+SELECT *
+FROM V_PRODUCTOS_INTERCAMBIADOS;
+
+-- 4. V_CANTIDAD_INTERCAMBIOS_ULTIMO_MES
+
+SELECT *
+FROM V_CANTIDAD_INTERCAMBIOS_ULTIMO_MES;
+
+-- 5. V_CALIFICACIONES_INCIDENCIAS
+
+SELECT *
+FROM V_CALIFICACIONES_INCIDENCIAS;
+
+
+---------- CODE END ----------

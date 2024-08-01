@@ -1,0 +1,107 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+
+<!-- DTD -->
+<!DOCTYPE Descripciones [
+    <!ELEMENT Descripciones (descripcion*)>
+    <!ELEMENT descripcion (anomalia*)>
+    <!ELEMENT anomalia (#PCDATA)>
+    <!ATTLIST descripcion codigo ID #REQUIRED>
+    <!ATTLIST anomalia prioridad CDATA #REQUIRED>
+    <!ATTLIST anomalia estado CDATA #REQUIRED>
+]>
+
+<!-- XML Ok -->
+<Descripciones>
+    <descripcion codigo="D01">
+        <anomalia prioridad="A" estado="Solucionado">El auditor no tiene acceso completo a la BD de Trueques.</anomalia>
+        <anomalia prioridad="M" estado="Pendiente">El auditor trata de modificar datos en la tabla de Árticulos y eliminar datos de la tabla Categorías.</anomalia>
+        <anomalia prioridad="B" estado="Solucionado">El administrador es notificado del intento de la alteración de la BD y envía una orden de arresto para el auditor (Ficción).</anomalia>
+    </descripcion>
+
+    <descripcion codigo="D02">
+        <anomalia prioridad="A" estado="Pendiente">El auditor no tiene acceso completo a la BD de Trueques.</anomalia>
+        <anomalia prioridad="M" estado="Solucionado">El auditor trata de modificar datos en la tabla de Árticulos y eliminar datos de la tabla Categorías.</anomalia>
+        <anomalia prioridad="B" estado="Pendiente">El administrador es notificado del intento de la alteración de la BD y envía una orden de arresto para el auditor (Ficción).</anomalia>
+    </descripcion>
+
+    <descripcion codigo="D03">
+        <anomalia prioridad="A" estado="Pendiente">El auditor no tiene acceso completo a la BD de Trueques.</anomalia>
+        <anomalia prioridad="M" estado="Solucionado">El auditor trata de modificar datos en la tabla de Árticulos y eliminar datos de la tabla Categorías.</anomalia>
+        <anomalia prioridad="B" estado="Solucionado">El administrador es notificado del intento de la alteración de la BD y envía una orden de arresto para el auditor (Ficción).</anomalia>
+    </descripcion>
+</Descripciones>
+
+<!-- 
+Segun la descripción de la descripcion en el astha, se tiene que cada descripcion tiene un codigo y una lista de anomalias, donde cada anomalia tiene una prioridad.
+en este caso es valido este xml ya que cumple con la estructura de la DTD y nos permite tener una estructura de datos que se puede manipular y consultar de manera sencilla.
+-->
+
+<!-- XML no Ok -->
+<!--
+<Descripciones>
+    <anomalia prioridad="A">
+        <descripcion codigo="D01">El auditor no tiene acceso completo a la BD de Trueques.</descripcion>
+        <descripcion codigo="D02">El auditor trata de modificar datos en la tabla de Árticulos y eliminar datos de la tabla Categorías.</descripcion>
+        <descripcion codigo="D03">El administrador es notificado del intento de la alteración de la BD y envía una orden de arresto para el auditor (Ficción).</descripcion>
+    </anomalia>
+
+    <anomalia prioridad="B"">
+        <descripcion codigo="D04">El auditor no tiene acceso completo a la BD de Trueques.</descripcion>
+        <descripcion codigo="D05">El auditor trata de modificar datos en la tabla de Árticulos y eliminar datos de la tabla Categorías.</descripcion>
+        <descripcion codigo="D06">El administrador es notificado del intento de la alteración de la BD y envía una orden de arresto para el auditor (Ficción).</descripcion>
+    </anomalia>
+
+    <anomalia prioridad="M">
+        <descripcion codigo="D07">El auditor no tiene acceso completo a la BD de Trueques.</descripcion>
+        <descripcion codigo="D08">El auditor trata de modificar datos en la tabla de Árticulos y eliminar datos de la tabla Categorías.</descripcion>
+        <descripcion codigo="D09">El administrador es notificado del intento de la alteración de la BD y envía una orden de arresto para el auditor (Ficción).</descripcion>
+    </anomalia>
+</Descripciones>
+ 
+Segun la descripción de la descripcion en el astha, se tiene que cada descripcion tiene un codigo y una lista de anomalias, donde cada anomalia tiene una prioridad.
+en este caso es no es valido este xml ya que no se cumple con la estructura de la DTD y dificulta tener una estructura de datos que se puede manipular y consultar de manera sencilla.
+-->
+
+<!-- 
+Extienda la información de este atributo (DTD) y proponga una nueva consulta que
+ilustre la pertinencia de la nueva información registrada en XML. (Diseño eimplementación)
+
+<?xml version="1.0"  encoding="UTF-8"?>
+<!DOCTYPE Descripciones [
+    <!ELEMENT Descripciones (descripcion*)>
+    <!ELEMENT descripcion (anomalia*)>
+    <!ELEMENT anomalia (#PCDATA)>
+    <!ATTLIST descripcion codigo ID #REQUIRED>
+    <!ATTLIST descripcion auditor CDATA #REQUIRED>
+    <!ATTLIST anomalia prioridad CDATA #REQUIRED>
+    <!ATTLIST anomalia estado CDATA #REQUIRED>
+]>
+
+
+<Descripciones>
+    <descripcion codigo="D01" auditor="Samuel">
+        <anomalia prioridad="A" estado="Solucionado">El auditor no tiene acceso completo a la BD de Trueques.</anomalia>
+        <anomalia prioridad="M" estado="Pendiente">El auditor trata de modificar datos en la tabla de Árticulos y eliminar datos de la tabla Categorías.</anomalia>
+        <anomalia prioridad="B" estado="Solucionado">El administrador es notificado del intento de la alteración de la BD y envía una orden de arresto para el auditor (Ficción).</anomalia>
+    </descripcion>
+
+    <descripcion codigo="D02" auditor="Manuel">
+        <anomalia prioridad="A" estado="Pendiente">El auditor no tiene acceso completo a la BD de Trueques.</anomalia>
+        <anomalia prioridad="M" estado="Solucionado">El auditor trata de modificar datos en la tabla de Árticulos y eliminar datos de la tabla Categorías.</anomalia>
+        <anomalia prioridad="B" estado="Pendiente">El administrador es notificado del intento de la alteración de la BD y envía una orden de arresto para el auditor (Ficción).</anomalia>
+    </descripcion>
+
+    <descripcion codigo="D03" auditor="Samuel">
+        <anomalia prioridad="A" estado="Pendiente">El auditor no tiene acceso completo a la BD de Trueques.</anomalia>
+        <anomalia prioridad="M" estado="Solucionado">El auditor trata de modificar datos en la tabla de Árticulos y eliminar datos de la tabla Categorías.</anomalia>
+        <anomalia prioridad="B" estado="Solucionado">El administrador es notificado del intento de la alteración de la BD y envía una orden de arresto para el auditor (Ficción).</anomalia>
+    </descripcion>
+</Descripciones>
+
+Se agrego un atributo auditor a la descripcion, para poder identificar a que auditor pertenece cada descripcion, de esta manera se puede tener un mejor control de las anomalias que se presentan en la base de datos de Trueques.
+
+consulta:
+Obtener las anomalias que tiene el auditor Samuel.
+
+XPATH: /Descripciones/descripcion[@auditor="Samuel"]/anomalia/tect()
+-->

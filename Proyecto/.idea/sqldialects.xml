@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://D:/PROYECTO FINAL DATABASE/Proyecto_entrga/pROYECTO/CICLO 1/4Componentes/CRUDE.sql" dialect="Oracle" />
+    <file url="file://D:/PROYECTO FINAL DATABASE/Proyecto_entrga/pROYECTO/CICLO 1/4Componentes/CRUDI.sql" dialect="Oracle" />
+    <file url="file://D:/PROYECTO FINAL DATABASE/Proyecto_entrga/pROYECTO/CICLO 1/4Componentes/CRUDOK.sql" dialect="Oracle" />
+    <file url="file://D:/PROYECTO FINAL DATABASE/Proyecto_entrga/pROYECTO/CICLO2/2RestriccionesProcedimentales/Disparadores.sql" dialect="Oracle" />
+    <file url="file://D:/PROYECTO FINAL DATABASE/Proyecto_entrga/pROYECTO/CICLO2/3IndicesyVistas/Indices.sql" dialect="Oracle" />
+    <file url="file://D:/PROYECTO FINAL DATABASE/Proyecto_entrga/pROYECTO/CICLO2/3IndicesyVistas/Vistas.sql" dialect="Oracle" />
+    <file url="file://D:/PROYECTO FINAL DATABASE/Proyecto_entrga/pROYECTO/CICLO2/4Componentes/CRUDE.sql" dialect="Oracle" />
+    <file url="file://D:/PROYECTO FINAL DATABASE/Proyecto_entrga/pROYECTO/CICLO2/4Componentes/CRUDI.sql" dialect="Oracle" />
+    <file url="file://D:/PROYECTO FINAL DATABASE/Proyecto_entrga/pROYECTO/CICLO2/4Componentes/CRUDOK.sql" dialect="Oracle" />
+  </component>
+</project>

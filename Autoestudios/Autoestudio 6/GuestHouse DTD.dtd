@@ -1,0 +1,32 @@
+<?xml version="1.0"? encoding="UTF-8"?>
+<!-- Estructura de la Tabla Extras de GuestHouse DB -->
+
+<!DOCTYPE Extras [
+    <!ELEMENT Extras (extra+)>
+
+    <!ELEMENT extra (producto+, propina?, ubicacion)>
+        <!ELEMENT producto (nombre, cantidad, precio)>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT cantidad (#PCDATA)>
+            <!ELEMENT precio (#PCDATA)>
+            <!ELEMENT propina (#PCDATA)>
+            <!ELEMENT ubicacion (#PCDATA)>
+    
+    <!ATTLIST extra
+        extra_id CDATA #REQUIRED
+        reserva_id CDATA #REQUIRED
+    >
+    
+    <!ATTLIST producto
+        ubicacion (comedor | piscina | habitación | salón) #REQUIRED
+    >
+    
+    <!ATTLIST propina
+        valor CDATA #IMPLIED
+        CONSTRAINT minimum_propina "valor >= 5"
+    >
+    
+    <!ATTLIST ubicacion
+        valor (comedor | piscina | habitación | salón) #REQUIRED
+    >
+]>

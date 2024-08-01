@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Tabla Extras de GuestHouse DB -->
+
+<Extras>
+    <extra extra_id="500101" reserva_id="5001">
+        <producto nombre="Desayuno" cantidad="7" precio="63.00" propina="5.00" ubicacion="comedor"></producto>
+        <producto nombre="Telefono" cantidad="2" precio="12.50" propina="0.00" ubicacion="habitacion"></producto>
+        <producto nombre="Almuerzo" cantidad="5" precio="120.70" propina="12.50" ubicacion="salón"></producto>
+    </extra>
+    <extra extra_id="500101" reserva_id="5001">
+        <producto nombre="Desayuno" cantidad="7" precio="63.00" propina="5.00" ubicacion="comedor"></producto>
+        <producto nombre="Telefono" cantidad="2" precio="12.50" propina="0.00" ubicacion="habitacion"></producto>
+        <producto nombre="Almuerzo" cantidad="5" precio="120.70" propina="12.50" ubicacion="salón"></producto>
+    </extra>
+    <extra extra_id="500102" reserva_id="5002">
+        <producto nombre="Cena" cantidad="10" precio="150.00" propina="10.00" ubicacion="comedor"></producto>
+        <producto nombre="Masaje" cantidad="1" precio="80.00" propina="15.00" ubicacion="habitación"></producto>
+        <producto nombre="Snacks" cantidad="4" precio="25.50" propina="5.00" ubicacion="piscina"></producto>
+         <producto nombre="Almuerzo" cantidad="8" precio="90.00" propina="10.00" ubicacion="salón"></producto>
+        <producto nombre="Cena" cantidad="3" precio="75.00" propina="8.00" ubicacion="comedor"></producto>
+    </extra>
+    <extra extra_id="500103" reserva_id="5003">
+        <producto nombre="Desayuno" cantidad="5" precio="45.00" propina="5.00" ubicacion="comedor"></producto>
+    </extra>
+    <extra extra_id="500101" reserva_id="5001">
+        <producto nombre="Desayuno" cantidad="7" precio="63.00" propina="5.00" ubicacion="comedor"></producto>
+        <producto nombre="Telefono" cantidad="2" precio="12.50" propina="0.00" ubicacion="habitacion"></producto>
+        <producto nombre="Almuerzo" cantidad="5" precio="120.70" propina="12.50" ubicacion="salón"></producto>
+    </extra>
+    <extra extra_id="500102" reserva_id="5002">
+        <producto nombre="Cena" cantidad="10" precio="150.00" propina="10.00" ubicacion="comedor"></producto>
+        <producto nombre="Masaje" cantidad="1" precio="80.00" propina="15.00" ubicacion="habitación"></producto>
+        <producto nombre="Snacks" cantidad="4" precio="25.50" propina="5.00" ubicacion="piscina"></producto>
+    </extra>
+    <extra extra_id="500103" reserva_id="5003">
+        <producto nombre="Desayuno" cantidad="5" precio="45.00" propina="5.00" ubicacion="comedor"></producto>
+        <producto nombre="Almuerzo" cantidad="8" precio="90.00" propina="10.00" ubicacion="salón"></producto>
+        <producto nombre="Cena" cantidad="3" precio="75.00" propina="8.00" ubicacion="comedor"></producto>
+    </extra>
+    <extra extra_id="500104" reserva_id="5004">
+        <producto nombre="Snacks" cantidad="1" precio="10.00" propina="1.00" ubicacion="piscina"></producto>
+    </extra>
+    <extra extra_id="500105" reserva_id="5005">
+        <producto nombre="Desayuno" cantidad="7" precio="60.00" propina="5.00" ubicacion="comedor"></producto>
+        <producto nombre="Almuerzo" cantidad="5" precio="110.00" propina="10.00" ubicacion="salón"></producto>
+        <producto nombre="Cena" cantidad="3" precio="80.00" propina="7.00" ubicacion="comedor"></producto>
+        <producto nombre="Masaje" cantidad="2" precio="160.00" propina="20.00" ubicacion="habitación"></producto>
+        <producto nombre="Snacks" cantidad="3" precio="20.00" propina="3.00" ubicacion="piscina"></producto>
+        <producto nombre="Servicio de habitación" cantidad="4" precio="45.00" propina="5.00" ubicacion="habitación"></producto>
+        <producto nombre="Internet" cantidad="1" precio="10.00" propina="0.00" ubicacion="habitación"></producto>
+    </extra>
+    <extra extra_id="500106" reserva_id="5006">
+        <producto nombre="Desayuno" cantidad="3" precio="27.00" propina="3.00" ubicacion="comedor"></producto>
+        <producto nombre="Cena" cantidad="9" precio="135.00" propina="15.00" ubicacion="comedor"></producto>
+        <producto nombre="Masaje" cantidad="1" precio="70.00" propina="10.00" ubicacion="habitación"></producto>
+    </extra>
+    <extra extra_id="500107" reserva_id="5007">
+        <producto nombre="Almuerzo" cantidad="7" precio="150.00" propina="15.00" ubicacion="salón"></producto>
+        <producto nombre="Cena" cantidad="2" precio="45.00" propina="5.00" ubicacion="comedor"></producto>
+    </extra>
+</Extras>
