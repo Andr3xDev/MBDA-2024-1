@@ -49,6 +49,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 *Andrés Felipe Chavarro Plazas* -- andres.chavarro-p@mail.escuelaing.edu.co
+<br>
+
 *Jesús Alfonso Pinzón Vega* -  - jesus.pinzon-v@mail.escuelaing.edu.co
 
 Project Link: [https://github.com/Andr3xDev/MBDA-2024-1](https://github.com/Andr3xDev/MBDA-2024-1)
