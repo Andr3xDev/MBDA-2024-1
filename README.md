@@ -1,13 +1,5 @@
 <a id="readme-top"></a>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <h3 align="center">Modelos y bases de datos</h3>
-  <br>
-</div>
-
-
 ---
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -36,7 +28,7 @@ Finally, the repository will not have new updates, since the course has already 
 ---
 
 ## Built With
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black) ![PL](https://img.shields.io/badge/PL%2FSQL-FFFFFF?style=for-the-badge&logo=oracle&logoColor=FF0000&labelColor=FFFFFF&color=FF0000)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black)  ![PL](https://img.shields.io/badge/PL%2FSQL-FFFFFF?style=for-the-badge&logo=oracle&logoColor=FF0000&labelColor=FFFFFF&color=FF0000)
 
 ---
 <!-- ----- LICENSE ----- -->
