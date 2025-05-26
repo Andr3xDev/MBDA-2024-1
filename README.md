@@ -2,8 +2,6 @@
 
 
 
----
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 This repository aims to compile all files, documentation, projects, laboratories and more. Files that correspond to what was seen in the subject "Modelos y bases de datos" (MBDA) during the 2024-1 semester.
@@ -14,18 +12,24 @@ This semester, a project is carried out that evaluates the knowledge acquired du
 
 Finally, the repository will not have new updates, since the course has already ended and we have no interest in developing the semester project further and the other elements present cannot be scaled.
 
----
+</br>
+</br>
 
 ## Built With
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black)  ![PL](https://img.shields.io/badge/PL%2FSQL-FFFFFF?style=for-the-badge&logo=oracle&logoColor=FF0000&labelColor=FFFFFF&color=FF0000)
 
----
+</br>
+</br>
+
+
 <!-- ----- LICENSE ----- -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
----
+</br>
+</br>
+
 <!-- ----- CONTACT ----- -->
 ## Contact
 
